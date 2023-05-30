@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(242, 249, 242);
+    font-family: 'Playfair', serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Playfair', serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px rgb(216, 216, 216);
+    width: 80%;
+    padding: 15px 10%;
+}
+#logo{
+    width: 200px;
+}
+#links{
+    margin-left: 20px;
+}
+#links a{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 10px;
+}
+#links a:hover{
+    color: teal;
+    transition: 0.2s;
+}
+
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner.jpg');
+    height: 500px;
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#banner div{
+    padding-top: 150px;
+    max-width: 400px;
+    margin: auto;
+    color:white;
+    text-align: center;
+}
+#banner h1{
+    color:white;
+    font-size: 35px;
+}
+
+#banner div a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s;
+    
+}
+
+#banner div a:hover{
+    color: teal;
+    background-color: white;
+}
+
+
+.flexible{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+#diseases h3{
+    font-size: 25px;
+    font-style: italic;
+}
+#about {
+    margin: 150px 0px;
+}
+#about p{
+    max-width: 400px;
+
+}
+
+.current{
+    color: teal !important;
+}
+#about img{
+    width: 200px;
+}
+#diseases .flexible{
+    align-items: center !important;
+}
+.title{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#wheatintro img{
+    width: 100%;
+}
+
+footer{
+    padding: 50px;
+    background-color: rgb(33, 33, 33);
+    color: rgb(215, 215, 215);
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+}
+form input{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+form button{
+    cursor: pointer;
+    padding: 6px 10px;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    border: none;
+}
+
+.ble{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    border-left: 3px solid rgb(0, 166, 255);
+    margin: 5px 0px ;
+    background-color: white;
+}
+small{
+    color: gray;
+}

@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="public.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair&family=Raleway:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <img  id="logo" src="logo.png" alt="">
+
+        <div id="links">
+            <a href="/" >Home</a>
+            <a href="/species">Species wheat</a>
+            <a href="/diseases">Fungal diseases</a>
+            <a href="/protocols" class="current">Protocols</a>
+            <a href="/admin">Admin</a>
+           
+        </div>
+    </nav>
+
+
+
+
+    
+
+
+    <div class="container" style="margin-top: 150px;">
+        
+        <h2 class="title">Search for wheat</h2>
+        
+        <form action="/protocols/" method="POST">
+            
+            <p>You can type gene name:</p>
+            <input type="text" name="name">
+            <button>Submit</button>
+        </form>
+        
+       
+        <div id="res">
+            
+        </div>
+        
+        
+        
+    </div>
+
+
+
+    <script src="app.js">
+
+    </script>
+    
+</body>
+</html>
